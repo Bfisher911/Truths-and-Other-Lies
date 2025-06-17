@@ -546,104 +546,109 @@
         // Roll table entries
         const rollTable = [
             {
-                quote: "I once convinced a mirror that it was looking at itself wrong. It's been reflecting on this ever since.",
-                effect: "All Illusion spells cast in the next hour deal +1d4 psychic damage as reality questions itself.",
-                justification: "This entry exists because mirrors are notoriously bad at self-reflection, despite their profession."
+                quote: "I once beat a mind flayer in chess. Or maybe he beat me. Either way, I wore the hat.",
+                effect: "Everyone forgets one prepared spell / special ability of their choice until the next long rest.",
+                justification: "Bragging rights get everyone in trouble when the book rewrites history."
             },
             {
-                quote: "The trick to a good magic trick is forgetting you know how it works. I've gotten so good at this, I've forgotten how to tie my shoes.",
-                effect: "Target creature must make a Wisdom save or forget one cantrip for 24 hours.",
-                justification: "Written during Riddle's 'Selective Amnesia' phase, which may or may not have been intentional."
+                quote: "I walked across a frozen lake with fire beneath my feet. Dramatic, no?",
+                effect: "The entire party gains resistance to fire or cold (group vote) until the next short rest.",
+                justification: "Magic believes every metaphor it reads—so the drama spreads to all companions."
             },
             {
-                quote: "Time is an illusion. Lunchtime doubly so. But dinner? Dinner is when the real magic happens.",
-                effect: "During the next meal, all food tastes like it was prepared by a master chef, regardless of actual quality.",
-                justification: "Evidence suggests Riddle was quite hungry when writing this particular entry."
+                quote: "I'm fluent in five languages, four dialects, and interpretive mime.",
+                effect: "All party members can understand any language for 1 hour (*Comprehend Languages*).",
+                justification: "Riddle never travels alone—neither does his linguistic prowess."
             },
             {
-                quote: "I told my past self a joke. They didn't laugh until tomorrow.",
-                effect: "Delayed Blast Humor: Target doesn't understand the joke until 24 hours later, then can't stop laughing for 1 minute.",
-                justification: "Temporal comedy is a dangerous art form that should only be practiced by licensed professionals."
+                quote: "Ah, the Great Sky‑Dive Debacle—parachute? No. Feather Fall? Maybe. Cape? Always.",
+                effect: "The next time anyone in the group falls more than 10 ft, *Feather Fall* automatically triggers (once).",
+                justification: "Cape physics obey no single bearer."
             },
             {
-                quote: "My name is Riddle, but I used to be Enigma. I changed it when I solved myself. Spoiler alert: I'm a knock-knock joke.",
-                effect: "Party gains advantage on all Investigation checks, but must speak only in question form for 1 hour.",
-                justification: "Identity crisis management is a crucial skill for any practicing illusionist."
+                quote: "The mimic and I had a gentleman's agreement. I don't eat it, it doesn't eat me.",
+                effect: "The next mimic the party meets refuses to attack anyone.",
+                justification: "Riddle apparently negotiated on everyone's behalf—retroactively."
             },
             {
-                quote: "I once made a coin disappear so thoroughly that it forgot it ever existed. The bank was not amused.",
-                effect: "Target object becomes temporarily incorporeal for 1d4 rounds, phasing through matter.",
-                justification: "This technique is banned in 47 kingdoms and three pocket dimensions."
+                quote: "Turns out the dragon was just lonely. We had tea.",
+                effect: "The next hostile creature the party encounters offers to negotiate before fighting.",
+                justification: "Social butterfly dragon diplomacy."
             },
             {
-                quote: "The audience sees what they want to see. I see what they need to see. My optometrist sees dollar signs.",
-                effect: "Creatures within 30 feet see illusions as their ideal reality for 10 minutes.",
-                justification: "Healthcare costs in the magical community have spiraled out of control."
+                quote: "When life gives you curses, make cursed lemonade.",
+                effect: "Each party member chooses: gain a minor beneficial effect OR remove a minor negative condition.",
+                justification: "Curse optimization theory."
             },
             {
-                quote: "I pulled myself out of a hat once. It was surprisingly roomy in there. I've been living in hats ever since.",
-                effect: "Any hat worn becomes a Bag of Holding for 24 hours.",
-                justification: "Urban planning in the 21st century requires creative solutions to housing shortages."
+                quote: "I convinced a lich that death was just a career change. He's in retail now.",
+                effect: "The next undead creature the party meets is confused about its purpose for 1d4 rounds.",
+                justification: "Career counseling for the eternally damned."
             },
             {
-                quote: "The secret to misdirection is—look, a dragon!",
-                effect: "All creatures within earshot must make a Perception check. Those who fail see a harmless illusion of their greatest fear.",
-                justification: "Classic misdirection techniques remain effective across all known realities."
+                quote: "Never trust a door that's too eager to open. That's how I met my evil twin.",
+                effect: "The party collectively gains advantage on the next Perception check to detect traps or ambushes.",
+                justification: "Paranoia is contagious—and occasionally useful."
             },
             {
-                quote: "I taught myself to read minds. Turns out most people are thinking about what they're going to have for lunch. Revolutionary stuff.",
-                effect: "Caster gains telepathy for 1 hour but can only hear thoughts about food.",
-                justification: "Cognitive research indicates 67% of all thoughts are food-related. The other 33% are also food-related but in denial."
+                quote: "I once out‑riddled a sphinx. The real riddle was why I thought that was a good idea.",
+                effect: "Each party member can ask one question and receive a cryptically truthful answer from the universe.",
+                justification: "Cosmic customer service—satisfaction not guaranteed."
             },
             {
-                quote: "Reality is optional. Terms and conditions apply. Side effects may include existential dread.",
-                effect: "Target's reality becomes negotiable for 1 round—they can attempt to argue with physics (Persuasion vs DC 20).",
-                justification: "Legal disclaimer required by the Department of Metaphysical Safety."
+                quote: "The bard wrote a song about me. I had to change my name twice.",
+                effect: "For 1 hour, any Charisma-based check made by the party has a 50% chance to fail spectacularly or succeed brilliantly (DM's choice).",
+                justification: "Musical reputation management."
             },
             {
-                quote: "I once disappeared for three years. Turned out I was just standing very still behind a potted plant.",
-                effect: "Perfect camouflage for 1 hour, but only while perfectly motionless and near vegetation.",
-                justification: "Advanced stealth techniques often involve creative interpretation of 'hiding in plain sight.'"
+                quote: "I taught a golem to laugh. It's been giggling for three centuries.",
+                effect: "All party members are immune to being frightened for 24 hours, but must make Constitution saves to stop laughing during serious moments.",
+                justification: "Infectious artificial joy syndrome."
             },
             {
-                quote: "The difference between magic and miracles is that magic has better marketing.",
-                effect: "Next spell cast appears twice as impressive but has the same mechanical effect.",
-                justification: "Brand management is crucial in the competitive supernatural services industry."
+                quote: "Apparently, 'fake it till you make it' doesn't work with wizard spells. Who knew?",
+                effect: "Each party member's next spell or ability that would normally fail instead works, but with completely unpredictable secondary effects.",
+                justification: "Confidence‑based magic theory."
             },
             {
-                quote: "I wrote my autobiography in invisible ink. Then I forgot where I put it. This book may or may not be it.",
-                effect: "All writing in the area becomes invisible to the writer but visible to everyone else for 1 hour.",
-                justification: "This paradox explains why Riddle's memoirs are simultaneously lost and found."
+                quote: "I met myself coming around a corner. Awkward. We're not speaking.",
+                effect: "Each party member gains a temporary personality quirk that contradicts their usual behavior for 1 hour.",
+                justification: "Temporal social anxiety."
             },
             {
-                quote: "Asked a genie for infinite wishes. They gave me infinite genies. I'm still working through the implications.",
-                effect: "Summon 1d4 helpful spirits that grant minor conveniences (lighting candles, untying shoelaces) for 1 hour.",
-                justification: "Geometric progression in wish fulfillment creates fascinating logistical challenges."
+                quote: "Note to self: Never challenge a time mage to a quick‑draw. They'll always shoot first.",
+                effect: "For the next combat, the entire party goes last in initiative, but each attack automatically hits.",
+                justification: "Temporal combat logistics."
             },
             {
-                quote: "The key to being mysterious is to never explain your— [page intentionally left blank]",
-                effect: "Caster becomes incredibly mysterious for 1 hour. All Charisma checks have advantage, but you can't explain anything.",
-                justification: "This entry demonstrates the technique while simultaneously"
+                quote: "I convinced a group of bandits I was their long‑lost leader. Plot twist: I was.",
+                effect: "The next group of humanoid enemies the party meets becomes friendly (but confused) for 10 minutes.",
+                justification: "Retroactive leadership credentials."
             },
             {
-                quote: "I tried to copyright my stage persona. Legal said you can't own a paradox. My lawyer is now a philosophical concept.",
-                effect: "Target creature becomes a legal abstraction for 1 minute—still present but technically not existing in a juridical sense.",
-                justification: "Intellectual property law struggles with metaphysical entities."
+                quote: "The jury was spellbound. The judge, less so. The bailiff… still writing to me.",
+                effect: "Charm one NPC for the whole party, but another NPC becomes immediately hostile to everyone.",
+                justification: "Polarizing group charisma."
             },
             {
-                quote: "Smoke and mirrors are amateur hour. Real professionals use smoke and more smoke.",
-                effect: "Area fills with dramatically excessive smoke that somehow improves visibility.",
-                justification: "Advanced pyrotechnics operate on principles that defy conventional logic."
+                quote: "Did I fake my death once? Please. I faked five. Only two were mine.",
+                effect: "Creatures within 30 ft believe the entire party is dead for 1 minute (or until any member attacks).",
+                justification: "Mass‑produced theatrical corpses."
             },
             {
-                quote: "My final trick will be to reveal that there never was a trick. But first, I need to learn the trick.",
-                effect: "Next failed ability check succeeds instead, but you must explain why failure was actually success.",
-                justification: "Meta-magical performance art requires extensive preparation and flexible definitions of success."
+                quote: "My spellbook once sued me for libel. We settled out of court.",
+                effect: "Each party member loses one cantrip for the day but gains a random new one.",
+                justification: "Class‑action spell litigation."
             },
             {
-                quote: "The real magic was the friends we made along the way. Also, actual magic. Don't undersell the actual magic.",
-                effect: "Bonds of friendship are strengthened—allies within 30 feet gain +2 to all saves for 1 hour.",
-                justification: "Empirical evidence supports both magical and social interpretations of power."
+                quote: "Sometimes, the spell fizzles. Sometimes, the wizard does.",
+                effect: "The next spell cast by each party member works, but with ridiculous visuals (flowers, bubbles, etc.).",
+                justification: "Style contagion."
+            },
+            {
+                quote: "Legends say I once saved the world by doing absolutely nothing. My proudest moment.",
+                effect: "If everyone spends a turn doing absolutely nothing, each automatically succeeds on one saving throw of their choice that round.",
+                justification: "Collective inactivity—heroic laziness."
             },
             {
                 quote: "This is entry 21. It shouldn't exist. The fact that you're reading it proves my point about the unreliability of facts. The book writes back: Hello, dear reader. I've been waiting for you.",
